@@ -1,0 +1,23 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:RegularExpressions="clr-namespace:System.Text.RegularExpressions;assembly=System" x:Class="NapierHolidayVillage.GuestWin"
+        Title="Guest" Height="277.406" Width="466.946" Background="#FFCBCBCB">
+    <Grid>
+        <Label x:Name="lblMainTitle" Content="Napier Holiday Village" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="4.469,0.609" FontFamily="Pericles" FontSize="24" FontWeight="Bold" Padding="10,5" Grid.IsSharedSizeScope="True" Width="338"/>
+        <Label x:Name="lblGuestName" Content="Guest's Name" HorizontalAlignment="Left" Margin="21,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGuestName" HorizontalAlignment="Left" Height="23" Margin="21,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="lblAge" Content="Guest's Age" HorizontalAlignment="Left" Margin="240,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="23" Margin="240,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="lblPassport" Content="Guest's Passport" HorizontalAlignment="Left" Margin="21,114,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPassport" HorizontalAlignment="Left" Height="23" Margin="21,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" MaxLength="10" CharacterCasing="Upper">
+            <TextBox.DataContext>
+                <RegularExpressions:RegexOptions>None</RegularExpressions:RegexOptions>
+            </TextBox.DataContext>
+        </TextBox>
+        <Button x:Name="btnSaveGuest" Content="Save" HorizontalAlignment="Left" Margin="21,191,0,0" VerticalAlignment="Top" Width="75" Click="btnSaveGuest_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="240,191,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
+        <Button x:Name="btnDelete" Content="Remove" HorizontalAlignment="Left" Margin="125,191,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click"/>
+
+    </Grid>
+</Window>

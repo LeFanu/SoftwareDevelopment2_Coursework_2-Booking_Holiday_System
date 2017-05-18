@@ -1,0 +1,47 @@
+﻿<Window x:Name="Invoice_Window" x:Class="NapierHolidayVillage.InvoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InvoiceWindow" Height="337.922" Width="412.971" Background="#FFCBCBCB">
+    <Grid>
+        <Label x:Name="lblBookingTitle" Content="Napier Holiday Village" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="4.469,0.609" FontFamily="Pericles" FontSize="24" FontWeight="Bold" Padding="10,5" Grid.IsSharedSizeScope="True" Width="338" Margin="0,10,0,0"/>
+        <Label x:Name="lblInvoiceTitle" Content="Invoice for booking: " HorizontalAlignment="Left" Margin="34,65,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="16"/>
+        <Label x:Name="lblInvoiceTitleReference" Content="Number" HorizontalAlignment="Left" Margin="206,65,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial" FontSize="16" Width="85"/>
+        <Label Content="Cost for stay:" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="146,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="x" Content="x" HorizontalAlignment="Left" Margin="184,110,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblGuestStandard" Content="no" HorizontalAlignment="Left" Margin="206,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="__" Content="=" HorizontalAlignment="Left" Margin="292,110,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Cost for meals:" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="___Copy" Content="=" HorizontalAlignment="Left" Margin="292,168,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="days" HorizontalAlignment="Left" Margin="250,196,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="310,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="310,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cost for car hire:" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="146,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="x_Copy2" Content="x" HorizontalAlignment="Left" Margin="200,196,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="daysCar" Content="no" HorizontalAlignment="Left" Margin="220,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="___Copy2" Content="=" HorizontalAlignment="Left" Margin="292,196,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="310,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="_" Content="________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.316,0.205"/>
+        <Label Content="Total cost for stay:" HorizontalAlignment="Left" Margin="10,235,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="310,238,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="169,269,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
+        <Label Content="50" HorizontalAlignment="Left" Margin="162,110,0,0" VerticalAlignment="Top" Width="39" Padding="0,5,5,5"/>
+        <Label Content="Cost with discount:" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="146,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="x_Copy1" Content="x" HorizontalAlignment="Left" Margin="184,137,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblGuestDiscount" Content="no" HorizontalAlignment="Left" Margin="206,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="___Copy1" Content="=" HorizontalAlignment="Left" Margin="292,137,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="£" HorizontalAlignment="Left" Margin="310,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="30" HorizontalAlignment="Left" Margin="162,137,0,0" VerticalAlignment="Top" Width="39" Padding="0,5,5,5"/>
+        <Label x:Name="lblCostCarHire" Content="50" HorizontalAlignment="Left" Margin="162,196,0,0" VerticalAlignment="Top" Width="39" Padding="0,5,5,5" RenderTransformOrigin="0.53,1.731"/>
+        <Label x:Name="lbltotalCost" Content="TOTAL" HorizontalAlignment="Left" Margin="334,238,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMealsCost" Content="Meals" HorizontalAlignment="Left" Margin="334,168,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="lblStandard" Content="Standard" HorizontalAlignment="Left" Margin="334,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDiscount" Content="Discount" HorizontalAlignment="Left" Margin="334,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCarCost" Content="Car Cost" HorizontalAlignment="Left" Margin="334,196,0,0" VerticalAlignment="Top"/>
+        <Label Content="per night" HorizontalAlignment="Left" Margin="235,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.14,-0.013"/>
+        <Label Content="per night" HorizontalAlignment="Left" Margin="234,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.14,-0.013"/>
+
+    </Grid>
+</Window>
